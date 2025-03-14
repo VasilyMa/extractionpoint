@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59885014a6b3d854ba9b6b377fec552f, type: 3}
+  m_Name: AK12Hands
+  m_EditorClassIdentifier: 
+  leftHandTransform: {fileID: 0}
+  rightHandTransform: {fileID: 0}
+  leftHandPosition: {x: 3.11, y: 1.28, z: -0.91}
+  leftHandRotation: {x: 0.106435366, y: 0.6109676, z: 0.6425094, w: 0.45007974}
+  rightHandPosition: {x: 0, y: -0, z: -0}
+  rightHandRotation: {x: 0.00000011702778, y: 0.000000089406946, z: -0.000000036987853,
+    w: 1}

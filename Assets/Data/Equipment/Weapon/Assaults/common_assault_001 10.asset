@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d3d7d797a731e64e9d69eefd988c4af, type: 3}
+  m_Name: common_assault_001 10
+  m_EditorClassIdentifier: 
+  KEY_ID: common_assault_001 10
+  Weapon:
+    rid: 1339409825376763904
+  references:
+    version: 2
+    RefIds:
+    - rid: 1339409825376763904
+      type: {class: AutoRifle, ns: , asm: Assembly-CSharp}
+      data:
+        ID: common_assault_001 10
+        Description: Assault
+        MaintenceName: Famas
+        Rarity: 0
+        Icon: {fileID: 21300000, guid: 7c9149c70cda9b7428e88791f9a6ea5a, type: 3}
+        WeaponOwner: {fileID: 0}
+        MissilePref: {fileID: -4063195859986513027, guid: c27951dad386d4a4d928fc6c130fcebb,
+          type: 3}
+        ViewPref: {fileID: 2047140912340971122, guid: e92ab41c1fd8cfb4596141c48ed76e7d,
+          type: 3}
+        Attack: 100
+        AttackMinMax:
+          Min: 29
+          Max: 34
+        Ammo: 100
+        AmmoMinMax:
+          Min: 25
+          Max: 30
+        Distance: 100
+        DistanceMinMax:
+          Min: 20
+          Max: 20
+        MissileSpeed: 100
+        MissileSpeedMinMax:
+          Min: 20
+          Max: 27
+        Reload: 100
+        ReloadMinMax:
+          Min: 2.3
+          Max: 2.7
+        RapidFire: 100
+        RapidFireMinMax:
+          Min: 0.135
+          Max: 0.12
+        Prepare: 100
+        PrepareMinMax:
+          Min: 2
+          Max: 2
+        Impulse: 100
+        ImpulseMinMax:
+          Min: 50
+          Max: 200
+        IsHeavy: 0

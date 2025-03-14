@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d3d7d797a731e64e9d69eefd988c4af, type: 3}
+  m_Name: deafult-zombie-claws
+  m_EditorClassIdentifier: 
+  KEY_ID: deafult-zombie-claws
+  Weapon:
+    rid: 7958311491064823808
+  references:
+    version: 2
+    RefIds:
+    - rid: 7958311491064823808
+      type: {class: WeaponEnemy, ns: , asm: Assembly-CSharp}
+      data:
+        ID: deafult-zombie-claws
+        Description: 
+        MaintenceName: 
+        WeaponOwner: {fileID: 0}
+        Distance: 2
+        DamageValue: 15

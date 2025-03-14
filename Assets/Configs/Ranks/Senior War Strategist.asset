@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9aae465b539c454d92afae8b391d8f5, type: 3}
+  m_Name: Senior War Strategist
+  m_EditorClassIdentifier: 
+  KEY_ID: Senior War Strategist
+  SourceRank:
+    KEY_ID: Senior War Strategist
+    Rank_Icon: {fileID: 21300000, guid: bfd67a57fbf02944894253a1f1c8cd42, type: 3}
+    Rank_Name: Senior War Strategist
+    NextRank: {fileID: 11400000, guid: f62a50b652eaaab439d2c1f75f0e87dc, type: 2}
+    PreviousRank: {fileID: 11400000, guid: 49a2781af28252b48b69202d779e8648, type: 2}
+    NeededExp: 90000
+    CurrentExp: 0
+    IsRewarded: 0
+    IsComplete: 0

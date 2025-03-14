@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9aae465b539c454d92afae8b391d8f5, type: 3}
+  m_Name: Captain
+  m_EditorClassIdentifier: 
+  KEY_ID: Captain
+  SourceRank:
+    KEY_ID: Captain
+    Rank_Icon: {fileID: 21300000, guid: ac69795767b866247971bb9268cedeab, type: 3}
+    Rank_Name: Captain
+    NextRank: {fileID: 11400000, guid: 2c12140f1ef2e0047a30f92acadd4e74, type: 2}
+    PreviousRank: {fileID: 11400000, guid: 5d760c51cd067b3458a763479939dc5f, type: 2}
+    NeededExp: 19600
+    CurrentExp: 0
+    IsRewarded: 0
+    IsComplete: 0

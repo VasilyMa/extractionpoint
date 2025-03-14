@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9aae465b539c454d92afae8b391d8f5, type: 3}
+  m_Name: Revenant of the Immortals
+  m_EditorClassIdentifier: 
+  KEY_ID: Revenant of the Immortals
+  SourceRank:
+    KEY_ID: Revenant of the Immortals
+    Rank_Icon: {fileID: 21300000, guid: 2f8d53a32a6168c4db70aee8d85a2a61, type: 3}
+    Rank_Name: Revenant of the Immortals
+    NextRank: {fileID: 11400000, guid: 8433e04b98f11b84abf4590fd0899e39, type: 2}
+    PreviousRank: {fileID: 11400000, guid: 79fc113313d24ee47852de4300d57804, type: 2}
+    NeededExp: 152100
+    CurrentExp: 0
+    IsRewarded: 0
+    IsComplete: 0

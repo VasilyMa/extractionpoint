@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d3d7d797a731e64e9d69eefd988c4af, type: 3}
+  m_Name: common_shotgun_001 8
+  m_EditorClassIdentifier: 
+  KEY_ID: common_shotgun_001 8
+  Weapon:
+    rid: 1339409825376763907
+  references:
+    version: 2
+    RefIds:
+    - rid: 1339409825376763907
+      type: {class: AutoRifle, ns: , asm: Assembly-CSharp}
+      data:
+        ID: common_shotgun_001 8
+        Description: Shotgun
+        MaintenceName: SAIGA-12
+        Rarity: 0
+        Icon: {fileID: 21300000, guid: f1d6ef4a31b31f449b9ccc99e14cb83b, type: 3}
+        WeaponOwner: {fileID: 0}
+        MissilePref: {fileID: -4063195859986513027, guid: 73b5525c7831bde4f9c7bb5437a2f6fa,
+          type: 3}
+        ViewPref: {fileID: 633339932088653758, guid: 0b981673e3286e04787b9cb64d638b20,
+          type: 3}
+        Attack: 100
+        AttackMinMax:
+          Min: 10
+          Max: 10
+        Ammo: 100
+        AmmoMinMax:
+          Min: 10
+          Max: 12
+        Distance: 100
+        DistanceMinMax:
+          Min: 15
+          Max: 20
+        MissileSpeed: 100
+        MissileSpeedMinMax:
+          Min: 22
+          Max: 25
+        Reload: 100
+        ReloadMinMax:
+          Min: 3
+          Max: 3.5
+        RapidFire: 100
+        RapidFireMinMax:
+          Min: 0.6
+          Max: 0.5
+        Prepare: 100
+        PrepareMinMax:
+          Min: 2
+          Max: 2
+        Impulse: 100
+        ImpulseMinMax:
+          Min: 50
+          Max: 200
+        IsHeavy: 0

@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da67f56a843c2cd4f86a42c352f319a7, type: 3}
+  m_Name: Silent_Phantom_Case
+  m_EditorClassIdentifier: 
+  KEY_ID: Silent_Phantom_Case
+  SourceCase:
+    KEY_ID: Silent_Phantom_Case
+    CaseName: Silent Phantom Case
+    CaseIcon: {fileID: 21300000, guid: bc75d190bf752dd4e936fe2d2822db17, type: 3}
+    CasePrefab: {fileID: 3051584132702257428, guid: 4c3a38bfdd281f0408ee67dcc54285f9,
+      type: 3}
+    possibleEquip:
+    - {fileID: 11400000, guid: a622a2e3b1f0b544c8f1fdcf4b8303c3, type: 2}
+    - {fileID: 11400000, guid: 7e8916d7122eefc4a9652faa1197b657, type: 2}
+    - {fileID: 11400000, guid: 62bc759a5fff4cd4d8884a258d92d53d, type: 2}
+    - {fileID: 11400000, guid: 49a2d0ed1d3106e498a091adec3cecc4, type: 2}
+    - {fileID: 11400000, guid: 839b1a5cde08d554ca6d6383d6ff0f60, type: 2}
+    - {fileID: 11400000, guid: d350d8255c875da4d8d9e7554d836312, type: 2}
+    - {fileID: 11400000, guid: 5518491add6692145810c956e9010807, type: 2}
+    - {fileID: 11400000, guid: a139580117896ec4ca442a2eb178a499, type: 2}
+    - {fileID: 11400000, guid: 1b000536ea41809448c7e5dd0a7428f8, type: 2}
+    - {fileID: 11400000, guid: cf19feb46f9e194488f16877b0d29d56, type: 2}
+    - {fileID: 11400000, guid: d5eecd34d3dec6145b6f0e8853919b08, type: 2}
+    - {fileID: 11400000, guid: 4eb4a3b4551b28048abc9b1eaf6cfaf4, type: 2}
+    - {fileID: 11400000, guid: dff0c2a5ed3636c418615bdc57b72d9c, type: 2}
+    - {fileID: 11400000, guid: e8f7d65f3ebffe74dbade3a5e0c053bc, type: 2}
+    CasePrice: 1000
+    DropRate: 0.1

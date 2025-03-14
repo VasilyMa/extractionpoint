@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da67f56a843c2cd4f86a42c352f319a7, type: 3}
+  m_Name: Battlefront_Case
+  m_EditorClassIdentifier: 
+  KEY_ID: Battlefront_Case
+  SourceCase:
+    KEY_ID: Battlefront_Case
+    CaseName: Battlefront Case
+    CaseIcon: {fileID: 21300000, guid: 5fb254d53b84940438ac48597e626b3e, type: 3}
+    CasePrefab: {fileID: 3051584132702257428, guid: 6e6300972f603a04a8ee412159bb0c21,
+      type: 3}
+    possibleEquip:
+    - {fileID: 11400000, guid: 6c09299b127f47d4db72f0f5af080d34, type: 2}
+    - {fileID: 11400000, guid: 2c023f204d6517f448049a0b8e96ffec, type: 2}
+    - {fileID: 11400000, guid: 41cd96860baad2d41b69546c24f0b2da, type: 2}
+    - {fileID: 11400000, guid: 62d8636c21c0e02419f84b72e2ca03d4, type: 2}
+    - {fileID: 11400000, guid: 4bd63b7a683e3204392316a4f2fc5069, type: 2}
+    - {fileID: 11400000, guid: 839b1a5cde08d554ca6d6383d6ff0f60, type: 2}
+    - {fileID: 11400000, guid: 26eb6bad2bdc38048be6a54cc4efaa19, type: 2}
+    - {fileID: 11400000, guid: 356672441218d304991532d64d2287c3, type: 2}
+    - {fileID: 11400000, guid: 8e0d693a78e5cf34080c56c2f16620a2, type: 2}
+    - {fileID: 11400000, guid: 1b000536ea41809448c7e5dd0a7428f8, type: 2}
+    - {fileID: 11400000, guid: cf19feb46f9e194488f16877b0d29d56, type: 2}
+    - {fileID: 11400000, guid: baa5e129d742328428c43bcef0cbb15c, type: 2}
+    - {fileID: 11400000, guid: 22d1a6a2f9b28a74c852b8e64a8035aa, type: 2}
+    - {fileID: 11400000, guid: f68340eb46a0d3947a906b7ae6d3f174, type: 2}
+    - {fileID: 11400000, guid: 4e53fef44f3e5724585d2f22dbf1a84c, type: 2}
+    - {fileID: 11400000, guid: d2875bd0acc47514f98f68e6cf130643, type: 2}
+    CasePrice: 1000
+    DropRate: 0.1

@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d3d7d797a731e64e9d69eefd988c4af, type: 3}
+  m_Name: common_sniper_001 9
+  m_EditorClassIdentifier: 
+  KEY_ID: common_sniper_001 9
+  Weapon:
+    rid: 1339409825376763910
+  references:
+    version: 2
+    RefIds:
+    - rid: 1339409825376763910
+      type: {class: AutoRifle, ns: , asm: Assembly-CSharp}
+      data:
+        ID: common_sniper_001 9
+        Description: Sniper
+        MaintenceName: SKS
+        Rarity: 0
+        Icon: {fileID: 21300000, guid: 4309fb3f001d6fb4e8a37871b9da1cef, type: 3}
+        WeaponOwner: {fileID: 0}
+        MissilePref: {fileID: -4063195859986513027, guid: 73b5525c7831bde4f9c7bb5437a2f6fa,
+          type: 3}
+        ViewPref: {fileID: 5666322502075267930, guid: dc0f0a731986c7441b852defecb3cb4b,
+          type: 3}
+        Attack: 100
+        AttackMinMax:
+          Min: 75
+          Max: 85
+        Ammo: 100
+        AmmoMinMax:
+          Min: 10
+          Max: 16
+        Distance: 100
+        DistanceMinMax:
+          Min: 100
+          Max: 100
+        MissileSpeed: 100
+        MissileSpeedMinMax:
+          Min: 30
+          Max: 40
+        Reload: 100
+        ReloadMinMax:
+          Min: 2
+          Max: 2.5
+        RapidFire: 100
+        RapidFireMinMax:
+          Min: 0.7
+          Max: 0.6
+        Prepare: 100
+        PrepareMinMax:
+          Min: 3
+          Max: 3
+        Impulse: 100
+        ImpulseMinMax:
+          Min: 200
+          Max: 1200
+        IsHeavy: 0

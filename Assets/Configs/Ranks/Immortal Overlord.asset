@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9aae465b539c454d92afae8b391d8f5, type: 3}
+  m_Name: Immortal Overlord
+  m_EditorClassIdentifier: 
+  KEY_ID: Immortal Overlord
+  SourceRank:
+    KEY_ID: Immortal Overlord
+    Rank_Icon: {fileID: 21300000, guid: a8a582e41a1105c4fab1d1b1c10a4396, type: 3}
+    Rank_Name: Immortal Overlord
+    NextRank: {fileID: 11400000, guid: 311d81cc195d3f742a505f0ff34a7757, type: 2}
+    PreviousRank: {fileID: 11400000, guid: 6b6c014865e5a1345a3b5cc8de06e288, type: 2}
+    NeededExp: 220900
+    CurrentExp: 0
+    IsRewarded: 0
+    IsComplete: 0

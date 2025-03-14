@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d3d7d797a731e64e9d69eefd988c4af, type: 3}
+  m_Name: common_assault_001 9
+  m_EditorClassIdentifier: 
+  KEY_ID: common_assault_001 9
+  Weapon:
+    rid: 1339409825376763904
+  references:
+    version: 2
+    RefIds:
+    - rid: 1339409825376763904
+      type: {class: AutoRifle, ns: , asm: Assembly-CSharp}
+      data:
+        ID: common_assault_001 9
+        Description: Assault
+        MaintenceName: Executor
+        Rarity: 0
+        Icon: {fileID: 21300000, guid: 78adb6aeeba731e4f94620b68dd252aa, type: 3}
+        WeaponOwner: {fileID: 0}
+        MissilePref: {fileID: -4063195859986513027, guid: c27951dad386d4a4d928fc6c130fcebb,
+          type: 3}
+        ViewPref: {fileID: 1672903190256206456, guid: 6f0a628c6b303b04b9e4dd6d597db728,
+          type: 3}
+        Attack: 100
+        AttackMinMax:
+          Min: 38
+          Max: 43
+        Ammo: 100
+        AmmoMinMax:
+          Min: 30
+          Max: 33
+        Distance: 100
+        DistanceMinMax:
+          Min: 20
+          Max: 30
+        MissileSpeed: 100
+        MissileSpeedMinMax:
+          Min: 20
+          Max: 32
+        Reload: 100
+        ReloadMinMax:
+          Min: 2.7
+          Max: 3.3
+        RapidFire: 100
+        RapidFireMinMax:
+          Min: 0.18
+          Max: 0.165
+        Prepare: 100
+        PrepareMinMax:
+          Min: 2
+          Max: 2
+        Impulse: 100
+        ImpulseMinMax:
+          Min: 120
+          Max: 500
+        IsHeavy: 0

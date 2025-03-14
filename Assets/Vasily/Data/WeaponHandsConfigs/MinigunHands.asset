@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59885014a6b3d854ba9b6b377fec552f, type: 3}
+  m_Name: MinigunHands
+  m_EditorClassIdentifier: 
+  leftHandTransform: {fileID: 0}
+  rightHandTransform: {fileID: 0}
+  leftHandPosition: {x: 21.89, y: -1.78, z: 1.48}
+  leftHandRotation: {x: -0.12478567, y: -0.16220473, z: -0.94504184, w: 0.25497892}
+  rightHandPosition: {x: -0.354, y: -0.049, z: 0.058}
+  rightHandRotation: {x: -0.090183824, y: -0.015312353, z: -0.025225036, w: 0.9954879}

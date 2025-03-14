@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da67f56a843c2cd4f86a42c352f319a7, type: 3}
+  m_Name: Warlord_Case
+  m_EditorClassIdentifier: 
+  KEY_ID: Warlord_Case
+  SourceCase:
+    KEY_ID: Warlord_Case
+    CaseName: Warlord Case
+    CaseIcon: {fileID: 21300000, guid: acf341db327f0f040925db61443d9de7, type: 3}
+    CasePrefab: {fileID: 3051584132702257428, guid: 1fa79ddc8b4ac2b4fa9f431fd864d367,
+      type: 3}
+    possibleEquip:
+    - {fileID: 11400000, guid: a84e141e5d083bc4883ac579107a4408, type: 2}
+    - {fileID: 11400000, guid: d32b1d4a1abe2784da2f0715cac35be6, type: 2}
+    - {fileID: 11400000, guid: d9a52917de25d064c875527b5dc88080, type: 2}
+    - {fileID: 11400000, guid: f2e6f12956f85564f8e04d01b41c9de4, type: 2}
+    - {fileID: 11400000, guid: fec01a46af6111040b0b5b5e1f932178, type: 2}
+    - {fileID: 11400000, guid: da677b9540c789445a6f7866e32d4f53, type: 2}
+    - {fileID: 11400000, guid: 6e7a5a25508b61c42b246a62257212ce, type: 2}
+    - {fileID: 11400000, guid: a1b11528ee5b8784b928886e31706ad4, type: 2}
+    - {fileID: 11400000, guid: 20c00ff7116caf744ad869e48e8ee0c7, type: 2}
+    - {fileID: 11400000, guid: e49a74eaef62ec749b559f4b82a8b095, type: 2}
+    - {fileID: 11400000, guid: 36340082778227a4ba37d7b3dbb5690c, type: 2}
+    - {fileID: 11400000, guid: d9ebc1d85135d4343b7aad2391c33d74, type: 2}
+    - {fileID: 11400000, guid: f9bc17b72c2a996458534174f2ecdd2f, type: 2}
+    CasePrice: 1000
+    DropRate: 0.1

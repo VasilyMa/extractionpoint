@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d3d7d797a731e64e9d69eefd988c4af, type: 3}
+  m_Name: common_pistol_001 15
+  m_EditorClassIdentifier: 
+  KEY_ID: common_pistol_001 15
+  Weapon:
+    rid: 1339409825376763906
+  references:
+    version: 2
+    RefIds:
+    - rid: 1339409825376763906
+      type: {class: Pistol, ns: , asm: Assembly-CSharp}
+      data:
+        ID: common_pistol_001 15
+        Description: Pistol
+        MaintenceName: TAURUS
+        Rarity: 0
+        Icon: {fileID: 21300000, guid: 072007b2c7ed9fc4bb9d44a7bd39afc2, type: 3}
+        WeaponOwner: {fileID: 0}
+        MissilePref: {fileID: -4063195859986513027, guid: e06f4092808dd004291342a63f8e0512,
+          type: 3}
+        ViewPref: {fileID: 558308700446019043, guid: dfc4d87131163204eb41e8626f81e196,
+          type: 3}
+        Attack: 100
+        AttackMinMax:
+          Min: 50
+          Max: 68
+        Ammo: 100
+        AmmoMinMax:
+          Min: 6
+          Max: 8
+        Distance: 100
+        DistanceMinMax:
+          Min: 40
+          Max: 50
+        MissileSpeed: 100
+        MissileSpeedMinMax:
+          Min: 40
+          Max: 51
+        Reload: 100
+        ReloadMinMax:
+          Min: 2
+          Max: 2.5
+        RapidFire: 100
+        RapidFireMinMax:
+          Min: 0.38
+          Max: 0.32
+        Prepare: 100
+        PrepareMinMax:
+          Min: 1
+          Max: 1
+        Impulse: 100
+        ImpulseMinMax:
+          Min: 500
+          Max: 800
+        IsHeavy: 0

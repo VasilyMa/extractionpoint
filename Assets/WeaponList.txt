@@ -1,0 +1,109 @@
+[Assaults] AK-67
+[Assaults] AK12
+[Assaults] AK74-M
+[Assaults] AK74
+[Assaults] Ancestor
+[Assaults] AR-337
+[Assaults] AR-F
+[Assaults] Brat
+[Assaults] Equalizer
+[Assaults] Executor
+[Assaults] Famas-M
+[Assaults] Famas
+[Assaults] FN-SCAR
+[Assaults] FN-SCARH
+[Assaults] G36
+[Assaults] G36C
+[Assaults] G3A4
+[Assaults] Groza-M
+[Assaults] Hole Puncher
+[Assaults] Husker
+[Assaults] M16-M
+[Assaults] M16
+[Assaults] M4A1
+[Assaults] M4A4-L
+[Assaults] M4A4-M
+[Assaults] M4A4
+[Assaults] Minnow
+[Assaults] PPE Kagua
+[Assaults] Ripper
+[Assaults] TAR21
+[HMGs] AR-17M
+[HMGs] Intimidator
+[HMGs] M240
+[HMGs] M249-M
+[HMGs] M249
+[HMGs] MG36
+[HMGs] Minigun
+[HMGs] PKM-M
+[HMGs] PKM
+[HMGs] RPK
+[HMGs] Shredder
+[HMGs] Slicer
+[Pistols] Deagle-M
+[Pistols] Deagle
+[Pistols] Glock-17
+[Pistols] Glock-19
+[Pistols] HK45
+[Pistols] M1911-M
+[Pistols] M1911
+[Pistols] M9
+[Pistols] Makarov-M
+[Pistols] Makarov
+[Pistols] MP443
+[Pistols] P250
+[Pistols] P320
+[Pistols] Remington
+[Pistols] SIG-M17
+[Pistols] TAURUS
+[Pistols] TEC-9
+[Pistols] TEC-9M
+[Pistols] USP-S
+[Pistols] VP9
+[ShotGuns] AA-12
+[ShotGuns] AA12-M
+[ShotGuns] Benelli M4
+[ShotGuns] Bennelli M4 Super
+[ShotGuns] Gen-12
+[ShotGuns] Panzer
+[ShotGuns] Popgun
+[ShotGuns] Remington 870
+[ShotGuns] SAIGA-12
+[ShotGuns] Sawed gun
+[ShotGuns] Single charger
+[ShotGuns] SPAS-12
+[ShotGuns] SPAS12-U
+[ShotGuns] TOZ-34
+[ShotGuns] USAS-12
+[ShotGuns] VEPR-12
+[ShotGuns] XM1014
+[SMGs] AKS-74U
+[SMGs] AR-9
+[SMGs] CMP9
+[SMGs] Desert Tech MDR-C
+[SMGs] Heeler
+[SMGs] KRISS M
+[SMGs] KRISS Vector CRB
+[SMGs] KRISS Vector
+[SMGs] Liberator
+[SMGs] MP-9
+[SMGs] MP25
+[SMGs] MP5
+[SMGs] MP7
+[SMGs] Oppressor
+[SMGs] UMP45
+[SMGs] Uzi
+[Snipers] AWP
+[Snipers] Destroyer
+[Snipers] Impaler
+[Snipers] Last SKS
+[Snipers] M107
+[Snipers] M200
+[Snipers] Marksman M110
+[Snipers] Pneuma
+[Snipers] Remington 337
+[Snipers] SKS
+[Snipers] SVD-M
+[Snipers] SVD
+[Snipers] VSS
+[Snipers] Zastava MP22

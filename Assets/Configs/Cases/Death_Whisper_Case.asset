@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da67f56a843c2cd4f86a42c352f319a7, type: 3}
+  m_Name: Death_Whisper_Case
+  m_EditorClassIdentifier: 
+  KEY_ID: Death_Whisper_Case
+  SourceCase:
+    KEY_ID: Death_Whisper_Case
+    CaseName: Death Whisper Case
+    CaseIcon: {fileID: 21300000, guid: a4b90887f1951a94c97cc2f68804ccc0, type: 3}
+    CasePrefab: {fileID: 3051584132702257428, guid: 70920a1b4346cc64ca7e86a05eed5546,
+      type: 3}
+    possibleEquip:
+    - {fileID: 11400000, guid: 3697096eac9b1054b9cc8372fb547501, type: 2}
+    - {fileID: 11400000, guid: 9a6afc93be66a954a98e1c726c3dd6f5, type: 2}
+    - {fileID: 11400000, guid: e2711fecd6641854eaeda3f5764a06ad, type: 2}
+    - {fileID: 11400000, guid: c4db24c9e87cc4d40aca930b547b17ac, type: 2}
+    - {fileID: 11400000, guid: b33e2199491342343a823f5969c9ae06, type: 2}
+    - {fileID: 11400000, guid: 5137a36b846519248b03097bcc8ad674, type: 2}
+    - {fileID: 11400000, guid: 302a0b96de7c3d343ba838592141c409, type: 2}
+    - {fileID: 11400000, guid: ab9009dbf86d9ee499b08e18d13ea2a7, type: 2}
+    - {fileID: 11400000, guid: d8f2c075c6756984db1ef1a2ecfb4c4b, type: 2}
+    - {fileID: 11400000, guid: 26b73f251e35cbe498adc12bdeb97ad4, type: 2}
+    - {fileID: 11400000, guid: 5305d229691bc8847aca184621b4fdde, type: 2}
+    - {fileID: 11400000, guid: d9bc2e31500f55d42b7ca069c625dcf7, type: 2}
+    - {fileID: 11400000, guid: 3d76adcd545148849b42c69ce3458c72, type: 2}
+    - {fileID: 11400000, guid: c27269f3b9a72134aad1c61c8c05e6e0, type: 2}
+    CasePrice: 1000
+    DropRate: 0.1

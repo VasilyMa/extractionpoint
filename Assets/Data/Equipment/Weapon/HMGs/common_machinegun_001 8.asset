@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d3d7d797a731e64e9d69eefd988c4af, type: 3}
+  m_Name: common_machinegun_001 8
+  m_EditorClassIdentifier: 
+  KEY_ID: common_machinegun_001 8
+  Weapon:
+    rid: 1339409825376763905
+  references:
+    version: 2
+    RefIds:
+    - rid: 1339409825376763905
+      type: {class: MachineGun, ns: , asm: Assembly-CSharp}
+      data:
+        ID: common_machinegun_001 8
+        Description: Machinegun
+        MaintenceName: PKM-M
+        Rarity: 0
+        Icon: {fileID: 21300000, guid: 08b578260fe859e43b8b2e274e423da5, type: 3}
+        WeaponOwner: {fileID: 0}
+        MissilePref: {fileID: -4063195859986513027, guid: dcf7fba5d3cdb9c418891f44aa6a3c98,
+          type: 3}
+        ViewPref: {fileID: 4653123823558175734, guid: e9819a37be15f614bb1a5f9aa995b549,
+          type: 3}
+        Attack: 100
+        AttackMinMax:
+          Min: 48
+          Max: 54
+        Ammo: 100
+        AmmoMinMax:
+          Min: 100
+          Max: 110
+        Distance: 100
+        DistanceMinMax:
+          Min: 22
+          Max: 33
+        MissileSpeed: 100
+        MissileSpeedMinMax:
+          Min: 24
+          Max: 33
+        Reload: 100
+        ReloadMinMax:
+          Min: 4.5
+          Max: 5
+        RapidFire: 100
+        RapidFireMinMax:
+          Min: 0.18
+          Max: 0.16
+        Prepare: 100
+        PrepareMinMax:
+          Min: 3
+          Max: 3
+        Impulse: 100
+        ImpulseMinMax:
+          Min: 100
+          Max: 700
+        IsHeavy: 0

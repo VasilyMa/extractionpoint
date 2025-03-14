@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9aae465b539c454d92afae8b391d8f5, type: 3}
+  m_Name: Phantom Commander
+  m_EditorClassIdentifier: 
+  KEY_ID: Phantom Commander
+  SourceRank:
+    KEY_ID: Phantom Commander
+    Rank_Icon: {fileID: 21300000, guid: 5d7c44aa6d3bcd94f92170e6ddd7cd8b, type: 3}
+    Rank_Name: Phantom Commander
+    NextRank: {fileID: 11400000, guid: 79fc113313d24ee47852de4300d57804, type: 2}
+    PreviousRank: {fileID: 11400000, guid: 4ad2d5be213b3cd49af627356db9feb0, type: 2}
+    NeededExp: 136900
+    CurrentExp: 0
+    IsRewarded: 0
+    IsComplete: 0

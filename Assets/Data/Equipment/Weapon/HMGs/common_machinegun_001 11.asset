@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d3d7d797a731e64e9d69eefd988c4af, type: 3}
+  m_Name: common_machinegun_001 11
+  m_EditorClassIdentifier: 
+  KEY_ID: common_machinegun_001 11
+  Weapon:
+    rid: 1339409825376763905
+  references:
+    version: 2
+    RefIds:
+    - rid: 1339409825376763905
+      type: {class: MachineGun, ns: , asm: Assembly-CSharp}
+      data:
+        ID: common_machinegun_001 11
+        Description: Machinegun
+        MaintenceName: Slicer
+        Rarity: 0
+        Icon: {fileID: 21300000, guid: a5ce3b9b87dab744eb0d73eddf04caeb, type: 3}
+        WeaponOwner: {fileID: 0}
+        MissilePref: {fileID: -4063195859986513027, guid: dcf7fba5d3cdb9c418891f44aa6a3c98,
+          type: 3}
+        ViewPref: {fileID: 1818744679724352254, guid: 3e9dcf9e9d8d7a4438ae8cfb9e5badf2,
+          type: 3}
+        Attack: 100
+        AttackMinMax:
+          Min: 45
+          Max: 54
+        Ammo: 100
+        AmmoMinMax:
+          Min: 100
+          Max: 120
+        Distance: 100
+        DistanceMinMax:
+          Min: 25
+          Max: 26
+        MissileSpeed: 100
+        MissileSpeedMinMax:
+          Min: 26
+          Max: 27
+        Reload: 100
+        ReloadMinMax:
+          Min: 4.4
+          Max: 5
+        RapidFire: 100
+        RapidFireMinMax:
+          Min: 0.185
+          Max: 0.165
+        Prepare: 100
+        PrepareMinMax:
+          Min: 3
+          Max: 3
+        Impulse: 100
+        ImpulseMinMax:
+          Min: 100
+          Max: 700
+        IsHeavy: 0

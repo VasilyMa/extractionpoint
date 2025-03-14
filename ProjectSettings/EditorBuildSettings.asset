@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/InitializedScene.unity
+    guid: e7f970106a8b9f743a2d09b82f5443fd
+  - enabled: 1
+    path: Assets/Scenes/GasTransportation.unity
+    guid: 04b42f845cca51b409dcf7895117e075
+  - enabled: 1
+    path: Assets/Scenes/MainBase.unity
+    guid: 79aa429dad4f13f45b258637bec3d4bd
+  m_configObjects:
+    com.unity.addressableassets: {fileID: 11400000, guid: 10d91ba22a2fe3b4691e81faaa4fb247,
+      type: 2}

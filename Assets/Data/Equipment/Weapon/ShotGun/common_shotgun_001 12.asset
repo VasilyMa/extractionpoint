@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d3d7d797a731e64e9d69eefd988c4af, type: 3}
+  m_Name: common_shotgun_001 12
+  m_EditorClassIdentifier: 
+  KEY_ID: common_shotgun_001 12
+  Weapon:
+    rid: 1339409825376763907
+  references:
+    version: 2
+    RefIds:
+    - rid: 1339409825376763907
+      type: {class: AutoRifle, ns: , asm: Assembly-CSharp}
+      data:
+        ID: common_shotgun_001 12
+        Description: Shotgun
+        MaintenceName: SPAS-12U
+        Rarity: 0
+        Icon: {fileID: 21300000, guid: d1381d00337ecba4bac4401337ebbb67, type: 3}
+        WeaponOwner: {fileID: 0}
+        MissilePref: {fileID: -4063195859986513027, guid: 73b5525c7831bde4f9c7bb5437a2f6fa,
+          type: 3}
+        ViewPref: {fileID: 284459573898152494, guid: a9461a5937b2c9c49ad9a4822c5b6c35,
+          type: 3}
+        Attack: 100
+        AttackMinMax:
+          Min: 10
+          Max: 10
+        Ammo: 100
+        AmmoMinMax:
+          Min: 6
+          Max: 8
+        Distance: 100
+        DistanceMinMax:
+          Min: 10
+          Max: 15
+        MissileSpeed: 100
+        MissileSpeedMinMax:
+          Min: 20
+          Max: 25
+        Reload: 100
+        ReloadMinMax:
+          Min: 2.9
+          Max: 3.6
+        RapidFire: 100
+        RapidFireMinMax:
+          Min: 1.5
+          Max: 1.3
+        Prepare: 100
+        PrepareMinMax:
+          Min: 2
+          Max: 2
+        Impulse: 100
+        ImpulseMinMax:
+          Min: 50
+          Max: 200
+        IsHeavy: 0

@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d3d7d797a731e64e9d69eefd988c4af, type: 3}
+  m_Name: common_smg_001 15
+  m_EditorClassIdentifier: 
+  KEY_ID: common_smg_001 15
+  Weapon:
+    rid: 1339409825376763908
+  references:
+    version: 2
+    RefIds:
+    - rid: 1339409825376763908
+      type: {class: Submachine, ns: , asm: Assembly-CSharp}
+      data:
+        ID: common_smg_001 15
+        Description: SMG
+        MaintenceName: UZI
+        Rarity: 0
+        Icon: {fileID: 21300000, guid: 44fb8a7d936deb24381beb9cb61806ce, type: 3}
+        WeaponOwner: {fileID: 0}
+        MissilePref: {fileID: -4063195859986513027, guid: e06f4092808dd004291342a63f8e0512,
+          type: 3}
+        ViewPref: {fileID: 3588000775662977703, guid: 9a1bb6f464ec20d448078cc0fb1eaa49,
+          type: 3}
+        Attack: 100
+        AttackMinMax:
+          Min: 22
+          Max: 27
+        Ammo: 100
+        AmmoMinMax:
+          Min: 32
+          Max: 38
+        Distance: 100
+        DistanceMinMax:
+          Min: 20
+          Max: 22
+        MissileSpeed: 100
+        MissileSpeedMinMax:
+          Min: 15
+          Max: 20
+        Reload: 100
+        ReloadMinMax:
+          Min: 2
+          Max: 2.6
+        RapidFire: 100
+        RapidFireMinMax:
+          Min: 0.12
+          Max: 0.1
+        Prepare: 100
+        PrepareMinMax:
+          Min: 2
+          Max: 2
+        Impulse: 100
+        ImpulseMinMax:
+          Min: 50
+          Max: 300
+        IsHeavy: 0

@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59885014a6b3d854ba9b6b377fec552f, type: 3}
+  m_Name: Remington1911Hands
+  m_EditorClassIdentifier: 
+  leftHandTransform: {fileID: 0}
+  rightHandTransform: {fileID: 0}
+  leftHandPosition: {x: 1.7, y: 1.78, z: -0.38}
+  leftHandRotation: {x: 0.44980556, y: 0.8507686, z: 0.23520157, w: -0.13619114}
+  rightHandPosition: {x: 0.104, y: -0.007, z: -0.102}
+  rightHandRotation: {x: 0.00000011702778, y: 0.000000089406946, z: -0.000000036987853,
+    w: 1}

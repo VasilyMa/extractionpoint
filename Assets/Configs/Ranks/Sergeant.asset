@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9aae465b539c454d92afae8b391d8f5, type: 3}
+  m_Name: Sergeant
+  m_EditorClassIdentifier: 
+  KEY_ID: Sergeant
+  SourceRank:
+    KEY_ID: Sergeant
+    Rank_Icon: {fileID: 21300000, guid: 5b5006e414cb5c549916aa9b638d06ee, type: 3}
+    Rank_Name: Sergeant
+    NextRank: {fileID: 11400000, guid: 3b9ecb8e27a64074cbf932f3907b6626, type: 2}
+    PreviousRank: {fileID: 11400000, guid: 17aeb9698885e904cb64610c72ea53df, type: 2}
+    NeededExp: 6400
+    CurrentExp: 0
+    IsRewarded: 0
+    IsComplete: 0

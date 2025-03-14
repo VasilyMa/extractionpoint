@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d3d7d797a731e64e9d69eefd988c4af, type: 3}
+  m_Name: common_assault_001 13
+  m_EditorClassIdentifier: 
+  KEY_ID: common_assault_001 13
+  Weapon:
+    rid: 1339409825376763904
+  references:
+    version: 2
+    RefIds:
+    - rid: 1339409825376763904
+      type: {class: AutoRifle, ns: , asm: Assembly-CSharp}
+      data:
+        ID: common_assault_001 13
+        Description: Assault
+        MaintenceName: FN-SCARH
+        Rarity: 0
+        Icon: {fileID: 21300000, guid: 203b73ca606270046afd7f916490a7de, type: 3}
+        WeaponOwner: {fileID: 0}
+        MissilePref: {fileID: -4063195859986513027, guid: c27951dad386d4a4d928fc6c130fcebb,
+          type: 3}
+        ViewPref: {fileID: 2463733300026402651, guid: c4f491c97d54d4e4cb265fef412b2165,
+          type: 3}
+        Attack: 100
+        AttackMinMax:
+          Min: 40
+          Max: 50
+        Ammo: 100
+        AmmoMinMax:
+          Min: 24
+          Max: 27
+        Distance: 100
+        DistanceMinMax:
+          Min: 20
+          Max: 30
+        MissileSpeed: 100
+        MissileSpeedMinMax:
+          Min: 20
+          Max: 38
+        Reload: 100
+        ReloadMinMax:
+          Min: 2.8
+          Max: 3.4
+        RapidFire: 100
+        RapidFireMinMax:
+          Min: 0.19
+          Max: 0.17
+        Prepare: 100
+        PrepareMinMax:
+          Min: 2
+          Max: 2
+        Impulse: 100
+        ImpulseMinMax:
+          Min: 200
+          Max: 1200
+        IsHeavy: 0

@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9aae465b539c454d92afae8b391d8f5, type: 3}
+  m_Name: Private First Class
+  m_EditorClassIdentifier: 
+  KEY_ID: Private First Class
+  SourceRank:
+    KEY_ID: Private First Class
+    Rank_Icon: {fileID: 21300000, guid: 19dd538dd5ed5664e9fed7d13c15481b, type: 3}
+    Rank_Name: Private First Class
+    NextRank: {fileID: 11400000, guid: 8f619b279991b694f9c87a20b0a8b59d, type: 2}
+    PreviousRank: {fileID: 11400000, guid: cd2691153cd086642b7dc535020b879c, type: 2}
+    NeededExp: 900
+    CurrentExp: 0
+    IsRewarded: 0
+    IsComplete: 0
