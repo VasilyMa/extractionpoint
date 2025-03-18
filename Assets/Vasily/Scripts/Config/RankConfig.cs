@@ -3,9 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [CreateAssetMenu(fileName = "RankConfig", menuName = "Config/RankConfig")]
-public class RankConfig : Config
+public class RankConfig : Config, ISerializationCallbackReceiver
 {
     public List<RankBase> ranks;
+    public bool IsValidate;
     private Dictionary<string, RankBase> _dictionary = new Dictionary<string, RankBase>();
 
     public override IEnumerator Init()
@@ -26,7 +27,6 @@ public class RankConfig : Config
 
         yield return new WaitForSeconds(0.1f);
     }
-
     public RankBase GetByID(string key)
     {
         if (_dictionary.TryGetValue(key, out RankBase rank))
@@ -37,7 +37,6 @@ public class RankConfig : Config
         Debug.LogError($"Rank with key '{key}' not found!");
         return null;
     }
-
     public void InitDictionary()
     {
         _dictionary.Clear();
@@ -49,5 +48,22 @@ public class RankConfig : Config
                 _dictionary.Add(ranks[i].KEY_ID, ranks[i]);
             }
         }
+    }
+
+    public void OnBeforeSerialize()
+    {
+        if (IsValidate) return;
+        
+        for (int i = 0; i < ranks.Count; i++)
+        {
+            ranks[i].SetLevelCurrent();
+        }
+
+        IsValidate = true;
+    }
+
+    public void OnAfterDeserialize()
+    {
+
     }
 }

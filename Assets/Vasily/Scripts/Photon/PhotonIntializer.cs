@@ -19,6 +19,9 @@ public class PhotonInitializer : MonoBehaviourPunCallbacks
 
     private string _createdRoomName = null;
 
+    public LobbySettingCreateData CreateLobbyData;
+    public LobbySettingSearchData SearchLobbyData;
+
 
     private void Awake()
     {
@@ -216,4 +219,20 @@ public class PhotonInitializer : MonoBehaviourPunCallbacks
             }
         }
     }
+}
+
+public class LobbySettingSearchData
+{
+    public int RankLevelMinimal;
+    public Difficult Difficult;
+    public string MapID;
+}
+
+public class LobbySettingCreateData
+{
+    public int RankLevelMinimal;
+    public Difficult Difficult;
+    public string MapID;
+    public bool IsPrivate;
+    public string LobbyRoomID;
 }

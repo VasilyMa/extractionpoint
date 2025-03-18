@@ -12,8 +12,11 @@ public class InterfaceConfig : Config
     public Sprite RareSlotView;
     public Sprite LegendarySlotView;
     [Space(10f)]
-    [Header("AnyView")]
-    public Sprite Any; //TODO remove or replace
+    [Header("Value")]
+    public Sprite Credit;
+    public Sprite Barrel;
+    public Sprite Exp;
+    public Sprite ExtraLife;
 
     public override IEnumerator Init()
     {

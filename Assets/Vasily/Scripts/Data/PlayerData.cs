@@ -2,7 +2,9 @@
 public class PlayerData : IDatable
 {
     public string RankID;
-    public int Money;
+    public int CreditCurrency;
+    public int BarrelCurrency;
+    public int Experience;
     public WeaponData MainWeapon;
     public WeaponData HeavyWeapon;
     public BattleModuleData BattleModule;
@@ -13,7 +15,10 @@ public class PlayerData : IDatable
 
     public PlayerData()
     {
-	    Money = 0;
+        CreditCurrency = 0;
+        BarrelCurrency = 0;
+        Experience = 0;
+        RankID = "Recruit";
     }
 
     public string DATA_ID => "PlayerData_ID"; // name data
@@ -22,7 +27,9 @@ public class PlayerData : IDatable
     {
         if (PlayerEntity.Instance == null) return;
 
-        Money = PlayerEntity.Instance.Money;
+        CreditCurrency = PlayerEntity.Instance.CreditCurrency;
+        BarrelCurrency = PlayerEntity.Instance.BarrelCurrency;
+        Experience = PlayerEntity.Instance.Experience;
         RankID = PlayerEntity.Instance.RankID;
         MainWeapon = new WeaponData(PlayerEntity.Instance.FirstWeaponData);
         HeavyWeapon = new WeaponData(PlayerEntity.Instance.SecondWeaponData);

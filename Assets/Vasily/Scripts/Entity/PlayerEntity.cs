@@ -9,11 +9,21 @@ using UnityEngine;
 public class PlayerEntity : SourceEntity
 {
     public Action<Equip> OnEquipChange;
+    public Action OnPlayerInfoChange;
+    public Action OnCreditChange;
+    public Action OnBarrelChange;
+    public Action OnExperienceChange;
+    public Action OnExtraLifeChange;
+
+    public string PlayerDisplayName;
     public string UniqueID;
     public string PlayFabUserID; 
     public static PlayerEntity Instance { get; private set; }
 
-    public int Money;
+    public int ExtraLife;
+    public int CreditCurrency;
+    public int BarrelCurrency;
+    public int Experience;
     public string RankID;
     public WeaponPlayer FirstWeaponData { get; set; }
     public WeaponPlayer SecondWeaponData { get; set; }
@@ -38,7 +48,10 @@ public class PlayerEntity : SourceEntity
         var playerData = SaveModule.GetData<PlayerData>();
         var equipConfig = ConfigModule.GetConfig<EquipConfig>();
 
-        Money = playerData.Money;
+        CreditCurrency = playerData.CreditCurrency;
+        BarrelCurrency = playerData.BarrelCurrency;
+        Experience = playerData.Experience;
+        RankID = playerData.RankID;
 
         FirstWeaponData = equipConfig.LoadEquip<WeaponPlayer>(playerData.MainWeapon);
         SecondWeaponData = equipConfig.LoadEquip<WeaponPlayer>(playerData.HeavyWeapon);
@@ -60,6 +73,11 @@ public class PlayerEntity : SourceEntity
         }
 
         return this;
+    }
+
+    public void RequestBarrelChange()
+    {
+
     }
 
     void PlayFabLoadID(GetAccountInfoResult result)

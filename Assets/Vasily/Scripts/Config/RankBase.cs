@@ -25,6 +25,19 @@ public class RankBase : ScriptableObject, ISerializationCallbackReceiver
             if(SourceRank != null) SourceRank.KEY_ID = KEY_ID; 
         }
     }
+
+    public void SetLevelCurrent()
+    { 
+        int level = 0;
+
+        if (SourceRank.PreviousRank != null)
+        {
+            level = SourceRank.PreviousRank.SourceRank.Rank_Level;
+            level++;
+        }
+
+        SourceRank.Rank_Level = level;
+    }
 }
 
 // Конструктор для инициализации ранга
@@ -35,6 +48,8 @@ public class Rank
 
     public Sprite Rank_Icon; // Иконка ранга
     public string Rank_Name; // Имя ранга
+
+    public int Rank_Level;
 
     public RankBase NextRank;
     public RankBase PreviousRank;
