@@ -9,6 +9,7 @@ public class MultiplayerPanel : SourcePanel
     DifficultLayout _difficultView;
     LobbyLayoutView _lobbyView;
     RandomLayoutView _randomView;
+    LobbyListLayout _lobbyListView;
     [SerializeField] Button _back;
 
     public override void Init(SourceCanvas canvasParent)
@@ -17,6 +18,7 @@ public class MultiplayerPanel : SourcePanel
         _difficultView = FindObjectOfType<DifficultLayout>().Init(this);
         _randomView = FindObjectOfType<RandomLayoutView>().Init(this);
         _lobbyView = FindObjectOfType<LobbyLayoutView>().Init(this);
+        _lobbyListView = FindObjectOfType<LobbyListLayout>().Init(this);
         _back.onClick.AddListener(Back);
 
         OpenMultiplayer();

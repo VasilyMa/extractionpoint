@@ -17,6 +17,7 @@ MonoBehaviour:
     KEY_ID: Staff Sergeant
     Rank_Icon: {fileID: 21300000, guid: 8341e02408f98a247ad5a1ebf4c3336e, type: 3}
     Rank_Name: Staff Sergeant
+    Rank_Level: 8
     NextRank: {fileID: 11400000, guid: e39e723863a2c754abe91131334b6764, type: 2}
     PreviousRank: {fileID: 11400000, guid: 7ed833baf65f4de4b83064e5266297f9, type: 2}
     NeededExp: 8100

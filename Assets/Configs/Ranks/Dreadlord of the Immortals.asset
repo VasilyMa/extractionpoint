@@ -17,6 +17,7 @@ MonoBehaviour:
     KEY_ID: Dreadlord of the Immortals
     Rank_Icon: {fileID: 21300000, guid: 5c753eb4450ca5847907cf9bcacd6954, type: 3}
     Rank_Name: Dreadlord of the Immortals
+    Rank_Level: 43
     NextRank: {fileID: 11400000, guid: c4c6f1d99f76af9448a0af56b2b2c55a, type: 2}
     PreviousRank: {fileID: 11400000, guid: e3cf03b87789f6a449286819ff4197b7, type: 2}
     NeededExp: 193600

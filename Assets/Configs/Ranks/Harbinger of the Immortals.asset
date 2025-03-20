@@ -17,6 +17,7 @@ MonoBehaviour:
     KEY_ID: Harbinger of the Immortals
     Rank_Icon: {fileID: 21300000, guid: bc08a6f8ac2e8f04f92dd479b021c4a9, type: 3}
     Rank_Name: Harbinger of the Immortals
+    Rank_Level: 42
     NextRank: {fileID: 11400000, guid: bfa5e41c5951a5444bbd80463d3fe1da, type: 2}
     PreviousRank: {fileID: 11400000, guid: ae8a74b31a459a24d9b12d30b76db036, type: 2}
     NeededExp: 184900

@@ -17,6 +17,7 @@ MonoBehaviour:
     KEY_ID: Deputy Chief
     Rank_Icon: {fileID: 21300000, guid: e04b5d4c72b65aa469b59b0296738b25, type: 3}
     Rank_Name: Deputy Chief
+    Rank_Level: 21
     NextRank: {fileID: 11400000, guid: 5066d6a8e5a0cb8499ab970a19048d5d, type: 2}
     PreviousRank: {fileID: 11400000, guid: bd56a938771efd44d83d97fbc0b8c173, type: 2}
     NeededExp: 48400

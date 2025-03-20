@@ -17,6 +17,7 @@ MonoBehaviour:
     KEY_ID: Chief Commander
     Rank_Icon: {fileID: 21300000, guid: 2682519307912d042ae5d36966e9e61a, type: 3}
     Rank_Name: Chief Commander
+    Rank_Level: 19
     NextRank: {fileID: 11400000, guid: bd56a938771efd44d83d97fbc0b8c173, type: 2}
     PreviousRank: {fileID: 11400000, guid: 6e94e5f9e80235e48943b360801ca940, type: 2}
     NeededExp: 40000

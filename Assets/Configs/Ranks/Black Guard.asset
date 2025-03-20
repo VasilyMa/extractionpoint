@@ -17,6 +17,7 @@ MonoBehaviour:
     KEY_ID: Black Guard
     Rank_Icon: {fileID: 21300000, guid: 83ba01a6c00650a4ebec3533216f6f26, type: 3}
     Rank_Name: Black Guard
+    Rank_Level: 40
     NextRank: {fileID: 11400000, guid: ae8a74b31a459a24d9b12d30b76db036, type: 2}
     PreviousRank: {fileID: 11400000, guid: 8433e04b98f11b84abf4590fd0899e39, type: 2}
     NeededExp: 168100

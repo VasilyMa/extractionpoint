@@ -17,6 +17,7 @@ MonoBehaviour:
     KEY_ID: Silent Reaper
     Rank_Icon: {fileID: 21300000, guid: 9d1964c548e398341ae5385bdc917f35, type: 3}
     Rank_Name: Silent Reaper
+    Rank_Level: 41
     NextRank: {fileID: 11400000, guid: e3cf03b87789f6a449286819ff4197b7, type: 2}
     PreviousRank: {fileID: 11400000, guid: 00bc0ec1106362e4d83ee2febee224a9, type: 2}
     NeededExp: 176400

@@ -17,6 +17,7 @@ MonoBehaviour:
     KEY_ID: Senior Corporal
     Rank_Icon: {fileID: 21300000, guid: d42ed9036d211c84994f97cf3cbd41e7, type: 3}
     Rank_Name: Senior Corporal
+    Rank_Level: 5
     NextRank: {fileID: 11400000, guid: 17aeb9698885e904cb64610c72ea53df, type: 2}
     PreviousRank: {fileID: 11400000, guid: 114f3766743632440a40335f5a073b48, type: 2}
     NeededExp: 3600

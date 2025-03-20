@@ -17,6 +17,7 @@ MonoBehaviour:
     KEY_ID: Warden of the Immortals
     Rank_Icon: {fileID: 21300000, guid: 41d0641d2e1e4d1468f8b05c7fcf35b9, type: 3}
     Rank_Name: Warden of the Immortals
+    Rank_Level: 34
     NextRank: {fileID: 11400000, guid: 4ad2d5be213b3cd49af627356db9feb0, type: 2}
     PreviousRank: {fileID: 11400000, guid: 57775d73098a18d49935cd3236d6a446, type: 2}
     NeededExp: 122500

@@ -17,6 +17,7 @@ MonoBehaviour:
     KEY_ID: Senior Colonel
     Rank_Icon: {fileID: 21300000, guid: 923514015f8d57b4e9c0753631081b9f, type: 3}
     Rank_Name: Senior Colonel
+    Rank_Level: 17
     NextRank: {fileID: 11400000, guid: 6e94e5f9e80235e48943b360801ca940, type: 2}
     PreviousRank: {fileID: 11400000, guid: 94cfe2c6f39fae14795ed4f42b88bf81, type: 2}
     NeededExp: 32400

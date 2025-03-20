@@ -17,6 +17,7 @@ MonoBehaviour:
     KEY_ID: Phantom Commander
     Rank_Icon: {fileID: 21300000, guid: 5d7c44aa6d3bcd94f92170e6ddd7cd8b, type: 3}
     Rank_Name: Phantom Commander
+    Rank_Level: 36
     NextRank: {fileID: 11400000, guid: 79fc113313d24ee47852de4300d57804, type: 2}
     PreviousRank: {fileID: 11400000, guid: 4ad2d5be213b3cd49af627356db9feb0, type: 2}
     NeededExp: 136900

@@ -17,6 +17,7 @@ MonoBehaviour:
     KEY_ID: Corporal
     Rank_Icon: {fileID: 21300000, guid: 10fde3af683c0f94aa612f7bd6355925, type: 3}
     Rank_Name: Corporal
+    Rank_Level: 4
     NextRank: {fileID: 11400000, guid: 2d10082f0857d0a409d65477120858b3, type: 2}
     PreviousRank: {fileID: 11400000, guid: 8f619b279991b694f9c87a20b0a8b59d, type: 2}
     NeededExp: 2500

@@ -17,6 +17,7 @@ MonoBehaviour:
     KEY_ID: Deathbringer of the Immortals
     Rank_Icon: {fileID: 21300000, guid: e41f46d46dd2e784cb2de5369277691c, type: 3}
     Rank_Name: Deathbringer of the Immortals
+    Rank_Level: 39
     NextRank: {fileID: 11400000, guid: 00bc0ec1106362e4d83ee2febee224a9, type: 2}
     PreviousRank: {fileID: 11400000, guid: 3e93e571fce39214aabf9a7ba4669789, type: 2}
     NeededExp: 160000

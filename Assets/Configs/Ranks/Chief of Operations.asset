@@ -17,6 +17,7 @@ MonoBehaviour:
     KEY_ID: Chief of Operations
     Rank_Icon: {fileID: 21300000, guid: c361891ccbcab364c885812bb00fb7d1, type: 3}
     Rank_Name: Chief of Operations
+    Rank_Level: 22
     NextRank: {fileID: 11400000, guid: 9175105da33a1754694cae231e587c7a, type: 2}
     PreviousRank: {fileID: 11400000, guid: fc78a8827d044a14c85254e46e98ac7f, type: 2}
     NeededExp: 52900

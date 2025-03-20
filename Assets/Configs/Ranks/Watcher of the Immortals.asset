@@ -17,6 +17,7 @@ MonoBehaviour:
     KEY_ID: Watcher of the Immortals
     Rank_Icon: {fileID: 21300000, guid: f9e8f809ee1ce854db10902ff1efb816, type: 3}
     Rank_Name: Watcher of the Immortals
+    Rank_Level: 33
     NextRank: {fileID: 11400000, guid: 2cb4c5863a8e5ea4e93e4076b6b75b02, type: 2}
     PreviousRank: {fileID: 11400000, guid: 0d436fe1a8f155e4d87eed16e3f6ba7c, type: 2}
     NeededExp: 115600

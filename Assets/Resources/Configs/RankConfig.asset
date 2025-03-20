@@ -61,3 +61,4 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 6b6c014865e5a1345a3b5cc8de06e288, type: 2}
   - {fileID: 11400000, guid: 92ec4b191918f51458573788027f8184, type: 2}
   - {fileID: 11400000, guid: 311d81cc195d3f742a505f0ff34a7757, type: 2}
+  IsValidate: 1

@@ -17,6 +17,7 @@ MonoBehaviour:
     KEY_ID: Chief Tactician
     Rank_Icon: {fileID: 21300000, guid: d03c8abf12f6c674b97efe8231badc3f, type: 3}
     Rank_Name: Chief Tactician
+    Rank_Level: 26
     NextRank: {fileID: 11400000, guid: e1d1d25c671425448915e4a73a0d6442, type: 2}
     PreviousRank: {fileID: 11400000, guid: f94ddb346be0e504a874c7e89a0a34e6, type: 2}
     NeededExp: 72900

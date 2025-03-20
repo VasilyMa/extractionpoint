@@ -17,6 +17,7 @@ MonoBehaviour:
     KEY_ID: Specialist
     Rank_Icon: {fileID: 21300000, guid: 9a6711416c757c24b838f16666f6a4d0, type: 3}
     Rank_Name: Specialist
+    Rank_Level: 6
     NextRank: {fileID: 11400000, guid: 7ed833baf65f4de4b83064e5266297f9, type: 2}
     PreviousRank: {fileID: 11400000, guid: 2d10082f0857d0a409d65477120858b3, type: 2}
     NeededExp: 4900

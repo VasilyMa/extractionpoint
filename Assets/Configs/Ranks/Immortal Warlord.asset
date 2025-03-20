@@ -17,6 +17,7 @@ MonoBehaviour:
     KEY_ID: Immortal Warlord
     Rank_Icon: {fileID: 21300000, guid: d62bc59955dfc41439766960875d7c85, type: 3}
     Rank_Name: Immortal Warlord
+    Rank_Level: 44
     NextRank: {fileID: 11400000, guid: 6b6c014865e5a1345a3b5cc8de06e288, type: 2}
     PreviousRank: {fileID: 11400000, guid: bfa5e41c5951a5444bbd80463d3fe1da, type: 2}
     NeededExp: 202500

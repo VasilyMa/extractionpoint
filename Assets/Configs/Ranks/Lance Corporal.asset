@@ -17,6 +17,7 @@ MonoBehaviour:
     KEY_ID: Lance Corporal
     Rank_Icon: {fileID: 21300000, guid: 67b4006296d7bd74fb1d8d57bb6ac0d6, type: 3}
     Rank_Name: Lance Corporal
+    Rank_Level: 3
     NextRank: {fileID: 11400000, guid: 114f3766743632440a40335f5a073b48, type: 2}
     PreviousRank: {fileID: 11400000, guid: 904a8f4ed1178b1498fb96f6ed59fda1, type: 2}
     NeededExp: 1600

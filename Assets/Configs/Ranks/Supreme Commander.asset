@@ -17,6 +17,7 @@ MonoBehaviour:
     KEY_ID: Supreme Commander
     Rank_Icon: {fileID: 21300000, guid: 0a8ea4444a349a3458bcb345c859c154, type: 3}
     Rank_Name: Supreme Commander
+    Rank_Level: 31
     NextRank: {fileID: 11400000, guid: 0d436fe1a8f155e4d87eed16e3f6ba7c, type: 2}
     PreviousRank: {fileID: 11400000, guid: f62a50b652eaaab439d2c1f75f0e87dc, type: 2}
     NeededExp: 102400

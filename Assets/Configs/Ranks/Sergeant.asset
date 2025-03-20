@@ -17,6 +17,7 @@ MonoBehaviour:
     KEY_ID: Sergeant
     Rank_Icon: {fileID: 21300000, guid: 5b5006e414cb5c549916aa9b638d06ee, type: 3}
     Rank_Name: Sergeant
+    Rank_Level: 7
     NextRank: {fileID: 11400000, guid: 3b9ecb8e27a64074cbf932f3907b6626, type: 2}
     PreviousRank: {fileID: 11400000, guid: 17aeb9698885e904cb64610c72ea53df, type: 2}
     NeededExp: 6400

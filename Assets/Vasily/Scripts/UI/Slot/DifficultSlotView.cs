@@ -28,4 +28,4 @@ public class DifficultSlotView : MonoBehaviour
     }
 }
 
-public enum Difficult { easy, medium, hard }
+public enum Difficult { any, easy, medium, hard }

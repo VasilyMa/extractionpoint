@@ -17,6 +17,7 @@ MonoBehaviour:
     KEY_ID: Recruit
     Rank_Icon: {fileID: 21300000, guid: da87497e223b1674386a44d57249eff7, type: 3}
     Rank_Name: Recruit
+    Rank_Level: 0
     NextRank: {fileID: 11400000, guid: cd2691153cd086642b7dc535020b879c, type: 2}
     PreviousRank: {fileID: 0}
     NeededExp: 100

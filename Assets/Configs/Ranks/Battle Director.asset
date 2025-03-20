@@ -17,6 +17,7 @@ MonoBehaviour:
     KEY_ID: Battle Director
     Rank_Icon: {fileID: 21300000, guid: 6c54de3922ad9f74f82d75df590d5e8a, type: 3}
     Rank_Name: Battle Director
+    Rank_Level: 27
     NextRank: {fileID: 11400000, guid: 49a2781af28252b48b69202d779e8648, type: 2}
     PreviousRank: {fileID: 11400000, guid: b9a42604633745145b3719a31ee196ca, type: 2}
     NeededExp: 78400

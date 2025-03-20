@@ -17,6 +17,7 @@ MonoBehaviour:
     KEY_ID: Private First Class
     Rank_Icon: {fileID: 21300000, guid: 19dd538dd5ed5664e9fed7d13c15481b, type: 3}
     Rank_Name: Private First Class
+    Rank_Level: 2
     NextRank: {fileID: 11400000, guid: 8f619b279991b694f9c87a20b0a8b59d, type: 2}
     PreviousRank: {fileID: 11400000, guid: cd2691153cd086642b7dc535020b879c, type: 2}
     NeededExp: 900

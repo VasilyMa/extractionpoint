@@ -17,6 +17,7 @@ MonoBehaviour:
     KEY_ID: Major
     Rank_Icon: {fileID: 21300000, guid: 61810f5de7c0c1e41829c0a9f932db12, type: 3}
     Rank_Name: Major
+    Rank_Level: 14
     NextRank: {fileID: 11400000, guid: ebb391033a913b649930d86456fb8c78, type: 2}
     PreviousRank: {fileID: 11400000, guid: b2ed14a17603a5e4f81957400e0882d8, type: 2}
     NeededExp: 22500

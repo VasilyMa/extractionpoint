@@ -17,6 +17,7 @@ MonoBehaviour:
     KEY_ID: Operations Director
     Rank_Icon: {fileID: 21300000, guid: a8a64cf12ee7672469488625880ac75b, type: 3}
     Rank_Name: Operations Director
+    Rank_Level: 25
     NextRank: {fileID: 11400000, guid: b9a42604633745145b3719a31ee196ca, type: 2}
     PreviousRank: {fileID: 11400000, guid: f42143e155ece2f4b8ff845c56a0a636, type: 2}
     NeededExp: 67600

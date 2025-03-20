@@ -17,6 +17,7 @@ MonoBehaviour:
     KEY_ID: Tactical Officer
     Rank_Icon: {fileID: 21300000, guid: f58c36c50eb3f7046bc6c7dd117365af, type: 3}
     Rank_Name: Tactical Officer
+    Rank_Level: 23
     NextRank: {fileID: 11400000, guid: f42143e155ece2f4b8ff845c56a0a636, type: 2}
     PreviousRank: {fileID: 11400000, guid: 5066d6a8e5a0cb8499ab970a19048d5d, type: 2}
     NeededExp: 57600

@@ -17,6 +17,7 @@ MonoBehaviour:
     KEY_ID: War Strategist
     Rank_Icon: {fileID: 21300000, guid: 071d706e984f4494f9ce01bed35340a5, type: 3}
     Rank_Name: War Strategist
+    Rank_Level: 28
     NextRank: {fileID: 11400000, guid: 143f0184a76fe6e499fcbb818bf75aa5, type: 2}
     PreviousRank: {fileID: 11400000, guid: e1d1d25c671425448915e4a73a0d6442, type: 2}
     NeededExp: 84100

@@ -17,6 +17,7 @@ MonoBehaviour:
     KEY_ID: Shadow Commander
     Rank_Icon: {fileID: 21300000, guid: 1a745bafc040b854494f983fe39ee53f, type: 3}
     Rank_Name: Shadow Commander
+    Rank_Level: 35
     NextRank: {fileID: 11400000, guid: 83935aa8c938ff44bafb642341a981ca, type: 2}
     PreviousRank: {fileID: 11400000, guid: 2cb4c5863a8e5ea4e93e4076b6b75b02, type: 2}
     NeededExp: 129600

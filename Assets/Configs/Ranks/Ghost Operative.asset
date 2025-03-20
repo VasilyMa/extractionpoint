@@ -17,6 +17,7 @@ MonoBehaviour:
     KEY_ID: Ghost Operative
     Rank_Icon: {fileID: 21300000, guid: a220f06c995223a49b676c56828d3a8a, type: 3}
     Rank_Name: Ghost Operative
+    Rank_Level: 37
     NextRank: {fileID: 11400000, guid: 3e93e571fce39214aabf9a7ba4669789, type: 2}
     PreviousRank: {fileID: 11400000, guid: 83935aa8c938ff44bafb642341a981ca, type: 2}
     NeededExp: 144400

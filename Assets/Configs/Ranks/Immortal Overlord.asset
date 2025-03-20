@@ -17,6 +17,7 @@ MonoBehaviour:
     KEY_ID: Immortal Overlord
     Rank_Icon: {fileID: 21300000, guid: a8a582e41a1105c4fab1d1b1c10a4396, type: 3}
     Rank_Name: Immortal Overlord
+    Rank_Level: 46
     NextRank: {fileID: 11400000, guid: 311d81cc195d3f742a505f0ff34a7757, type: 2}
     PreviousRank: {fileID: 11400000, guid: 6b6c014865e5a1345a3b5cc8de06e288, type: 2}
     NeededExp: 220900

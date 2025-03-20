@@ -3,6 +3,9 @@ using Photon.Pun;
 using Photon.Realtime;
 using System;
 using ExitGames.Client.Photon;
+using System.Collections.Generic;
+using System.Linq;
+using Sirenix.OdinInspector.Editor.GettingStarted;
 
 public class PhotonInitializer : MonoBehaviourPunCallbacks
 {
@@ -13,6 +16,7 @@ public class PhotonInitializer : MonoBehaviourPunCallbacks
 
     public static Action<bool> OnMatchmakingReady;
     public static Action OnStartSolo;
+    public static Action OnRoomListChange;
     public static Action<Player> OnPlayerEnter;
     public static Action<Player> OnPlayerLeft;
     public static PhotonInitializer Instance;
@@ -21,6 +25,8 @@ public class PhotonInitializer : MonoBehaviourPunCallbacks
 
     public LobbySettingCreateData CreateLobbyData;
     public LobbySettingSearchData SearchLobbyData;
+
+    private List<RoomInfo> _cachedRoomList = new List<RoomInfo>();
 
 
     private void Awake()
@@ -74,6 +80,92 @@ public class PhotonInitializer : MonoBehaviourPunCallbacks
         InRandom = false;
         InLobby = true;
 
+    }
+    public void TryToJoin(RoomInfo room)
+    {
+        if (room == null)
+        {
+            Debug.LogWarning("Попытка подключения к пустой комнате!");
+            return;
+        }
+
+        if (!room.IsOpen || !room.IsVisible)
+        {
+            Debug.LogWarning($"Комната {room.Name} закрыта или невидима.");
+            return;
+        }
+
+        PhotonNetwork.JoinRoom(room.Name);
+        Debug.Log($"Подключаемся к комнате: {room.Name}");
+    }
+    public void CreateLobbyWithCustomProperties()
+    {
+        string roomName = CreateLobbyData.LobbyRoomID; Difficult difficulty = CreateLobbyData.Difficult; string mapID = CreateLobbyData.MapID; int levelMinimum = CreateLobbyData.RankLevelMinimal; bool isPrivate = CreateLobbyData.IsPrivate; byte maxPlayers = 2;
+
+        RoomOptions roomOptions = new RoomOptions
+        {
+            MaxPlayers = maxPlayers,
+            IsVisible = !isPrivate,
+            IsOpen = true,
+            CustomRoomProperties = new ExitGames.Client.Photon.Hashtable
+            {
+                { "IsLobby" , true },
+                { "Difficulty", (int)difficulty },
+                { "MapID", mapID },
+                { "LevelMinimum", levelMinimum },
+                { "IsPrivate", isPrivate }
+            },
+            CustomRoomPropertiesForLobby = new string[] { "IsLobby", "Difficulty", "MapID", "LevelMinimum", "IsPrivate" }
+        };
+
+        PhotonNetwork.CreateRoom(roomName, roomOptions);
+    }
+
+    public override void OnRoomListUpdate(List<RoomInfo> roomList)
+    {
+        base.OnRoomListUpdate(roomList);
+
+        foreach (var room in roomList)
+        {
+            if (room.RemovedFromList)
+                _cachedRoomList.RemoveAll(r => r.Name == room.Name);
+            else
+                _cachedRoomList.Add(room);
+        }
+
+        OnRoomListChange?.Invoke();
+    }
+
+    public List<RoomInfo> GetFilteredRooms()
+    {
+        Difficult difficulty = SearchLobbyData.Difficult; string mapID = SearchLobbyData.MapID; int levelMinimum = SearchLobbyData.RankLevelMinimal; bool isPrivate = false;
+
+        return _cachedRoomList.Where(room =>
+        {
+            if (!room.IsOpen || !room.IsVisible) return false; // Игнорируем закрытые или невидимые комнаты
+
+            var properties = room.CustomProperties;
+
+            if ((!properties.ContainsKey("IsLobby") || !(bool)properties["IsLobby"]))
+                return false;
+
+            if (isPrivate && (!properties.ContainsKey("IsPrivate") || !(bool)properties["IsPrivate"]))
+                return false;
+
+            if (!isPrivate && properties.ContainsKey("IsPrivate") && (bool)properties["IsPrivate"])
+                return false;
+
+            if (properties.ContainsKey("Difficulty") && (Difficult)(int)properties["Difficulty"] != difficulty && difficulty != Difficult.any)
+                return false;
+
+            if (properties.ContainsKey("MapID") && (string)properties["MapID"] != mapID && !string.IsNullOrEmpty(mapID))
+                return false;
+
+            if (properties.ContainsKey("LevelMinimum") && (int)properties["LevelMinimum"] > levelMinimum)
+                return false;
+
+            return true;
+        }).ToList();
     }
 
     public void DropPlayerName(Player player)

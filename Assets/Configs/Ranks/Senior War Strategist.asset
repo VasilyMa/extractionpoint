@@ -17,6 +17,7 @@ MonoBehaviour:
     KEY_ID: Senior War Strategist
     Rank_Icon: {fileID: 21300000, guid: bfd67a57fbf02944894253a1f1c8cd42, type: 3}
     Rank_Name: Senior War Strategist
+    Rank_Level: 29
     NextRank: {fileID: 11400000, guid: f62a50b652eaaab439d2c1f75f0e87dc, type: 2}
     PreviousRank: {fileID: 11400000, guid: 49a2781af28252b48b69202d779e8648, type: 2}
     NeededExp: 90000

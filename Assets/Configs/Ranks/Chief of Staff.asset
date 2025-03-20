@@ -17,6 +17,7 @@ MonoBehaviour:
     KEY_ID: Chief of Staff
     Rank_Icon: {fileID: 21300000, guid: 490a69ccb437baa48a4692e8970d0a24, type: 3}
     Rank_Name: Chief of Staff
+    Rank_Level: 30
     NextRank: {fileID: 11400000, guid: 27c302ac4911b004a94d68a3a0515c81, type: 2}
     PreviousRank: {fileID: 11400000, guid: 143f0184a76fe6e499fcbb818bf75aa5, type: 2}
     NeededExp: 96100

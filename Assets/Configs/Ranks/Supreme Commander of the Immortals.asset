@@ -17,6 +17,7 @@ MonoBehaviour:
     KEY_ID: Supreme Commander of the Immortals
     Rank_Icon: {fileID: 21300000, guid: efe185212c7eeaa43a08cce5b70ca22c, type: 3}
     Rank_Name: Supreme Commander of the Immortals
+    Rank_Level: 45
     NextRank: {fileID: 11400000, guid: 92ec4b191918f51458573788027f8184, type: 2}
     PreviousRank: {fileID: 11400000, guid: c4c6f1d99f76af9448a0af56b2b2c55a, type: 2}
     NeededExp: 211600

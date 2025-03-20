@@ -17,6 +17,7 @@ MonoBehaviour:
     KEY_ID: Colonel
     Rank_Icon: {fileID: 21300000, guid: a74101751f7e95c428ef7d72e15d25e0, type: 3}
     Rank_Name: Colonel
+    Rank_Level: 16
     NextRank: {fileID: 11400000, guid: e879a7ecaca48a943821cd19e303f0dd, type: 2}
     PreviousRank: {fileID: 11400000, guid: ebb391033a913b649930d86456fb8c78, type: 2}
     NeededExp: 28900

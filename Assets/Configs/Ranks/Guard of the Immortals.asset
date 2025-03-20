@@ -17,6 +17,7 @@ MonoBehaviour:
     KEY_ID: Guard of the Immortals
     Rank_Icon: {fileID: 21300000, guid: e3e957efd1af1fd4b830c64f31841608, type: 3}
     Rank_Name: Guard of the Immortals
+    Rank_Level: 32
     NextRank: {fileID: 11400000, guid: 57775d73098a18d49935cd3236d6a446, type: 2}
     PreviousRank: {fileID: 11400000, guid: 27c302ac4911b004a94d68a3a0515c81, type: 2}
     NeededExp: 108900

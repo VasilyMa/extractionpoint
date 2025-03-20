@@ -17,6 +17,7 @@ MonoBehaviour:
     KEY_ID: Strategic Officer
     Rank_Icon: {fileID: 21300000, guid: 87cee86b588fb4a4d93d3d328fee7081, type: 3}
     Rank_Name: Strategic Officer
+    Rank_Level: 24
     NextRank: {fileID: 11400000, guid: f94ddb346be0e504a874c7e89a0a34e6, type: 2}
     PreviousRank: {fileID: 11400000, guid: 9175105da33a1754694cae231e587c7a, type: 2}
     NeededExp: 62500

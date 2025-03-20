@@ -17,6 +17,7 @@ MonoBehaviour:
     KEY_ID: Second Lieutenant
     Rank_Icon: {fileID: 21300000, guid: cd2397b71888bed46a6ebd489eb3937d, type: 3}
     Rank_Name: Second Lieutenant
+    Rank_Level: 11
     NextRank: {fileID: 11400000, guid: 5d760c51cd067b3458a763479939dc5f, type: 2}
     PreviousRank: {fileID: 11400000, guid: 1415244f21ca9af4ba3868a9521f3224, type: 2}
     NeededExp: 14400

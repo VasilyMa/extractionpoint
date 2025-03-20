@@ -17,6 +17,7 @@ MonoBehaviour:
     KEY_ID: Dark Monarch
     Rank_Icon: {fileID: 21300000, guid: 3f44d4bdf0ba69f4b91258f03602ac46, type: 3}
     Rank_Name: Dark Monarch
+    Rank_Level: 47
     NextRank: {fileID: 0}
     PreviousRank: {fileID: 11400000, guid: 92ec4b191918f51458573788027f8184, type: 2}
     NeededExp: 230400
