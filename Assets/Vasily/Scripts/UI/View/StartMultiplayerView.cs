@@ -16,4 +16,6 @@ public class StartMultiplayerView : MonoBehaviour
     }
 
     public void OpenDifficult() => _panel.OpenDifficult();
+    public void OpenFindLobby() => _panel.OpenFindLobby();
+    public void OpenCreateLobby() => _panel.OpenCreateLobby();
 }

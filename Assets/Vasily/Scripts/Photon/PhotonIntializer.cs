@@ -5,11 +5,16 @@ using System;
 using ExitGames.Client.Photon;
 using System.Collections.Generic;
 using System.Linq;
-using Sirenix.OdinInspector.Editor.GettingStarted;
 
 public class PhotonInitializer : MonoBehaviourPunCallbacks
 {
     public string DestinationScene;
+
+    public string DefaultSceneID;
+
+#if UNITY_EDITOR
+    public UnityEditor.SceneAsset SceneDefaultAsset;
+#endif
 
     [HideInInspector] public bool InRandom;
     [HideInInspector] public bool InLobby;
@@ -40,6 +45,9 @@ public class PhotonInitializer : MonoBehaviourPunCallbacks
 
             PhotonNetwork.LocalPlayer.SetCustomProperties(playerProperties);
         }
+
+        SearchLobbyData = new LobbySettingSearchData();
+        CreateLobbyData = new LobbySettingCreateData();
     }
 
     public void StartSolo()
@@ -75,12 +83,6 @@ public class PhotonInitializer : MonoBehaviourPunCallbacks
         PhotonNetwork.CreateRoom(_createdRoomName, roomOptions);
     }
 
-    public void CreateLobby()
-    {
-        InRandom = false;
-        InLobby = true;
-
-    }
     public void TryToJoin(RoomInfo room)
     {
         if (room == null)
@@ -100,6 +102,9 @@ public class PhotonInitializer : MonoBehaviourPunCallbacks
     }
     public void CreateLobbyWithCustomProperties()
     {
+        InRandom = false;
+        InLobby = true;
+
         string roomName = CreateLobbyData.LobbyRoomID; Difficult difficulty = CreateLobbyData.Difficult; string mapID = CreateLobbyData.MapID; int levelMinimum = CreateLobbyData.RankLevelMinimal; bool isPrivate = CreateLobbyData.IsPrivate; byte maxPlayers = 2;
 
         RoomOptions roomOptions = new RoomOptions
@@ -311,6 +316,13 @@ public class PhotonInitializer : MonoBehaviourPunCallbacks
             }
         }
     }
+
+    private void OnValidate()
+    {
+#if UNITY_EDITOR
+        DefaultSceneID = SceneDefaultAsset.name;
+#endif
+    }
 }
 
 public class LobbySettingSearchData
@@ -318,6 +330,13 @@ public class LobbySettingSearchData
     public int RankLevelMinimal;
     public Difficult Difficult;
     public string MapID;
+
+    public LobbySettingSearchData()
+    {
+        RankLevelMinimal = 0;
+        Difficult = Difficult.any;
+        MapID = PhotonInitializer.Instance.DefaultSceneID;
+    }
 }
 
 public class LobbySettingCreateData
@@ -327,4 +346,13 @@ public class LobbySettingCreateData
     public string MapID;
     public bool IsPrivate;
     public string LobbyRoomID;
+
+    public LobbySettingCreateData() 
+    {
+        RankLevelMinimal = 0;
+        Difficult = Difficult.any;
+        MapID = PhotonInitializer.Instance.DefaultSceneID;
+        LobbyRoomID = string.Empty;
+        IsPrivate = false;
+    }
 }

@@ -3,11 +3,11 @@ using UnityEngine.UI;
 
 public class LobbyListLayout : MonoBehaviour
 {
-    MultiplayerPanel _panel;
     [SerializeField] Button _refresh;
     SearchResultList _searchResults;
     SearchSettingsList _searchSettings;
 
+    MultiplayerPanel _panel;
 
     public LobbyListLayout Init(MultiplayerPanel panel)
     {

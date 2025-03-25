@@ -29,6 +29,11 @@ public class PlayerLobbySlotView : MonoBehaviour
         gameObject.SetActive(false);
     }
 
+    public void OnReset()
+    {
+
+    }
+
     public void UpdateSlotInfo(Player player, string playFadID)
     {
         _player = player;

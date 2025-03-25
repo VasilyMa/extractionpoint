@@ -40,6 +40,7 @@ public class PlayerInfoScreen : MonoBehaviour
         _addToFriend.onClick.AddListener(AddFriend);
         _back.onClick.AddListener(Back);
 
+        gameObject.SetActive(false);
         return this;
     }
 

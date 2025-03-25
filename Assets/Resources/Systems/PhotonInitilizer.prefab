@@ -45,3 +45,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DestinationScene: SampleScene
+  DefaultSceneID: GasTransportation
+  SceneDefaultAsset: {fileID: 102900000, guid: 04b42f845cca51b409dcf7895117e075, type: 3}
+  InRandom: 0
+  InLobby: 0

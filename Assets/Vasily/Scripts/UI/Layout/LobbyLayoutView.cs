@@ -24,6 +24,16 @@ public class LobbyLayoutView : MonoBehaviour
         return this;
     }
 
+    public void Open()
+    {
+        foreach (var slot in _playerLobbySlotsView)
+        {
+            slot.OnReset();
+        }
+
+        gameObject.SetActive(true);
+    }
+
     void onPlayerEnter(Player player)
     {
         if (player.CustomProperties.ContainsKey("PlayFabID"))

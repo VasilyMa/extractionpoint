@@ -19,8 +19,8 @@ public class DifficultLayout : MonoBehaviour
     {
         switch (PlayModeEntity.Instance.MultiplayerMode)
         {
-            case MultiplayerMode.lobby:
-                _panel.OpenLobby();
+            case MultiplayerMode.findLobby:
+                _panel.OpenCreateLobby();
                 break;
             case MultiplayerMode.random:
                 _panel.OpenRandom();

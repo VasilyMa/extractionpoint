@@ -14,4 +14,4 @@ public class PlayModeEntity : SourceEntity
     }
 }
 
-public enum MultiplayerMode { lobby, random }
+public enum MultiplayerMode { inLobby, createLobby, findLobby, random }
